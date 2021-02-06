@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/rupay-logo.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Open+Sans:wght@300;600&family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>RuPay</title>
+</head>
+<body>
+    <div id="root">
+        <header>
+            <div class="logo-wrapper">
+                <img src="./assets/images/rupay-logo-full.png" alt="RuPay Logo">
+            </div>
+            <div class="nav-wrapper">
+                <ul>
+                    <li><a href="#">Who We Are</a></li>
+                    <li><a href="#">What We Do</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Milestones</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Apply Now</a></li>
+                    <li><a href="" class="search">
+                        <img src="./assets/images/search-icon.png" alt="">
+                    </a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+            </div>
+        </header>
+        <section class="carousel">
+            <div>
+                <div class="carousel">
+                  <ul class="slides">
+                    <input type="radio" name="radio-buttons" id="img-1" checked />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                          <div class="slide-body">
+                              <h1 class="slide-title">Touch places</h1>
+                              <h2 class="slide-title-small">with our new travel cards</h2>
+                              <button>Know More <img src="./assets/images/right-arrow-dark.png" alt=""></button>
+                          </div>
+                        <img src="./assets/images/bg1.jpg" alt="carousel-image">
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-4" class="prev-slide">
+                            <img class="left-arrow" src="./assets/images/left-arrow.png" alt="">
+                        </label>
+                        <label for="img-2" class="next-slide">
+                            <img src="./assets/images/right-arrow.png" alt="">
+                        </label>
+                      </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-2" />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                        <img src="./assets/images/bg1.jpg" alt="carousel-image">
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-1" class="prev-slide">
+                            <img class="left-arrow" src="./assets/images/left-arrow.png" alt="">
+                        </label>
+                        <label for="img-3" class="next-slide">
+                            <img src="./assets/images/right-arrow.png" alt="">
+                        </label>
+                      </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-3" />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                        <img src="./assets/images/bg1.jpg" alt="carousel-image">
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-2" class="prev-slide">
+                          <img class="left-arrow" src="./assets/images/left-arrow.png" alt="">
+                        </label>
+                        <label for="img-4" class="next-slide">
+                            <img src="./assets/images/right-arrow.png" alt="">
+                        </label>
+                      </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-4" />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                        <img src="./assets/images/bg1.jpg" alt="carousel-image">
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-3" class="prev-slide">
+                          <img class="left-arrow" src="./assets/images/left-arrow.png" alt="">
+                        </label>
+                        <label for="img-1" class="next-slide">
+                            <img src="./assets/images/right-arrow.png" alt="">
+                        </label>
+                      </div>
+                    </li>
+                    <div class="carousel-dots">
+                      <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                      <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                      <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                      <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+        </section>
+        <section class="card-features">
+            <h1 class="decor-heading">Platinum</h1>
+            <div class="container">
+                <div class="card-feature-top">
+                    <span>Key features of our New Classic Travel Card</span>
+                    <img src="./assets/images/rupay-card-platinum-small.jpg" alt="">
+                </div>
+                <hr>
+                <div class="card-feature-bottom d-flex justify-space-between">
+                    <div class="card-adv">
+                        <h4>FAST & EASY</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Quibusdam consequuntur impedit pariatur velit, nesciunt 
+                            quam.</p>
+                    </div>
+                    <div class="card-adv">
+                        <h4>SAVINGS</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Quibusdam consequuntur impedit pariatur velit, nesciunt 
+                            quam. Tempore sint eos doloribus, nobis.</p>
+                    </div>
+                    <div class="card-adv">
+                        <h4>TOUCHLESS</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Quibusdam consequuntur impedit pariatur velit, nesciunt 
+                            quam. T</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="small-carousel">
+            <div class="container">
+                <div class="row resources ">
+                    <div class="container" id="resource-slider">
+                      <button class='arrow prev'><img class="left-arrow" src="./assets/images/left-arrow.png" alt=""></button>
+                      <button class='arrow next'><img class="" src="./assets/images/right-arrow.png" alt=""></button>
+                      <div class="resource-slider-frame">
+                  
+                        <div class="resource-slider-item">
+                          <div class="resource-slider-inset">
+                            <div class="resource">
+                              <a href="#">
+                                <img src="./assets/images/grp1.jpg">
+                                <div>
+                                    <h4>
+                                        Rupay is most secure way of payment
+                                    </h4>
+                                    <span class="footLink">
+                                        <em>Learn about our security</em>
+                                        <img src="./assets/images/right-arrow.png" alt="">
+                                    </span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="resource-slider-item">
+                          <div class="resource-slider-inset">
+                            <div class="resource d-flex grp2p">
+                              <a href="#" class="grp2p1">
+                                <div>
+                                    <h4>
+                                        Learn how we are opening doors to financial freedom that empowers people
+                                    </h4>
+                                    <span class="footLink">
+                                        <img src="./assets/images/right-arrow.png" alt="">
+                                    </span>
+                                </div>
+                              </a>
+                              <a href="#" class="grp2p2">
+                                <div>
+                                    <h4>
+                                        Explore our new contact less cards for fast and easy transactions
+                                    </h4>
+                                    <span class="footLink">
+                                        <img src="./assets/images/right-arrow.png" alt="">
+                                    </span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="resource-slider-item">
+                          <div class="resource-slider-inset">
+                            <div class="resource">
+                              <a href="#">
+                                <img src="./assets/images/grp3.jpg">
+                                <div>
+                                    <h4>
+                                        Offers that makes you repeat the order
+                                    </h4>
+                                    <span class="footLink">
+                                        <em>Explore offers on Dining</em>
+                                        <img src="./assets/images/right-arrow.png" alt="">
+                                    </span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="resource-slider-item">
+                          <div class="resource-slider-inset">
+                            <div class="resource">
+                              <a href="#">
+                                <img src="./assets/images/grp4.jpg">
+                                <div>
+                                    <h4>
+                                        Rupay is most secure way of payment
+                                    </h4>
+                                    <span class="footLink">
+                                        <em>Learn about our security</em>
+                                        <img src="./assets/images/right-arrow.png" alt="">
+                                    </span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="rupay4everyone">
+            <div class="rupay4e-wrapper d-flex justify-center align-center">
+                <div class="rupay4e d-flex wrap">
+                    <h2>Rupay is for</h2>
+                    <h1 class="big-title">
+                        every<span class="evO">o<img src="./assets/images/rupay-logo.png" alt=""></span>ne
+                    </h1>
+                    <p class="width41pc text-light-grey">
+                        The Basic Framework contains components and complex
+                        blocks which can easily be integrated into almost any design.
+                        Basic Framework contains components and complex blocks.
+                    </p>
+                    <div class="row d-flex justify-center">
+                        <button>Rupay for Individual</button>
+                        <button>Rupay for Business</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rupay-classic">
+            <div class="feature-insight-wrapper d-flex wrap align-center justify-center">
+                <div class="feature-insight d-flex">
+                    <div class="insight-slide-navi">
+                        <img class="left-arrow" src="./assets/images/left-arrow.png" alt="">
+                    </div>
+                    <div class="insight-slide d-flex">
+                        <div class="left-part">
+                            <div class="row">
+                                <h3 class="mtb-50px">Rupay Classic</h3>
+                                <p class="f18">The Basic Faramwork contains components and complex
+                                    blocks which can easily be integrated into almost any design.
+                                </p>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="insight-feature mr-20px">
+                                    <h4 class="font-josefin mtb-25px">FAST & EASY</h4>
+                                    <p class="f14">The Basic Faramwork contains components and complex
+                                        blocks which can easily be integrated into almost any design.
+                                    </p>
+                                </div>
+                                <div class="insight-feature ml-20px">
+                                    <h4 class="font-josefin mtb-25px">SAVINGS</h4>
+                                    <p class="f14">The Basic Faramwork contains components and complex
+                                        blocks which can easily be integrated into almost any design.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mt-60px">
+                                <button class="mr-20px">Know More</button>
+                                <button class="filled-btn ml-20px">Apply Now</button>
+                            </div>
+                        </div>
+                        <div class="right-part">
+                            <div class="card-preview">
+                                <img src="./assets/images/Reflection.jpg" alt="">
+                                <div class="d-flex classic-offers justify-space-between align-center">
+                                    <div>
+                                        <span class="match-icon-size">2.5X</span>
+                                        <span>Rewards</span>
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/airplane.png" alt="">
+                                        <span>Travel offers</span>
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/wifi.png" alt="">
+                                        <span>Touchless</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="insight-slide-navi">
+                        <img src="./assets/images/right-arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="articles">
+            <div class="container">
+                <h2 class="mtb-25px">Newest Articles</h2>
+                <p>
+                    She was bouncing away, when a cry from the two women, who had turned towards the 
+                    bed, caused her to look round.
+                </p>
+                <div class="article-wrapper mtb-50px d-flex">
+                    <article>
+                        <span class="theme-grey date f14">MARCH 23, 2019</span>
+                        <h1>Cashless payments now easy</h1>
+                        <p class="theme-grey">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eveniet maxime laborum ex ad quasi 
+                            exercitationem impedit magni vitae animi veritatis sequi, laudantium quo voluptatibus facilis reiciendis 
+                            vero vel deleniti?
+                        </p>
+                        <div class="article-links f14">
+                            <a href="#" class="dark">READ NOW</a>
+                            <a href="#" class="theme-grey"><img src="./assets/images/sheild.png" alt="">SHARE THIS POST</a>
+                        </div>
+                    </article>
+                    <article>
+                        <span class="theme-grey date f14">MARCH 22, 2019</span>
+                        <h1>Making India Prominent on world map</h1>
+                        <p class="theme-grey">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eveniet maxime laborum ex ad quasi 
+                            exercitationem impedit magni vitae animi.
+                        </p>
+                        <div class="article-links f14">
+                            <a href="#" class="dark">READ NOW</a>
+                            <a href="#" class="theme-grey"><img src="./assets/images/sheild.png" alt="">SHARE THIS POST</a>
+                        </div>
+                    </article>
+                    <article>
+                        <span class="theme-grey date f14">MARCH 19, 2019</span>
+                        <h1>Why digital is future?</h1>
+                        <p class="theme-grey">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eveniet maxime laborum ex ad quasi 
+                            exercitationem impedit magni vitae animi veritatis sequi, laudantium quo voluptatibus facilis reiciendis 
+                            vero vel deleniti?
+                        </p>
+                        <div class="article-links f14">
+                            <a href="#" class="dark">READ NOW</a>
+                            <a href="#" class="theme-grey"><img src="./assets/images/sheild.png" alt="">SHARE THIS POST</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="d-flex justify-center">
+                    <button class="filled-dark-btn mtb-25px" id="allArticle">All Articles</button>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="d-flex justify-space-around align-center">
+                <h1>Subscribe to our Newsletter</h1>
+                <i></i>
+                <button>Enter your Email Id</button>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-top d-flex">
+                    <div class="footer-about">
+                        <img src="./assets/images/rupay-logo-full-color.png" alt="">
+                        <p class="wid65pc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga at officiis ab hic rerum corrupti, 
+                            similique deleniti, quod neque beatae omnis repellat itaque autem dicta. Quisquam quas minus architecto laborum.</p>
+                    </div>
+                    <div class="quick-links d-flex">
+                        <div class="qk-link-div">
+                            <h3>LEARN MORE</h3>
+                            <ul>
+                                <li><a href="#">How it Works</a></li>
+                                <li><a href="#">Guarantee</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Report Bug</a></li>
+                                <li><a href="#">Offers</a></li>
+                                <li><a href="#">Help Center</a></li>
+                            </ul>
+                        </div>
+                        <div class="qk-link-div">
+                            <h3>ABOUT</h3>
+                            <ul>
+                                <li><a href="#">About Rupay</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Cards</a></li>
+                                <li><a href="#">Testimonial</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="qk-link-div">
+                            <h3>GET IN TOUCH</h3>
+                            <ul>
+                                <li><a href="#">Get Support</a></li>
+                                <li><a href="#">Advertise with Us</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Affiliate Program</a></li>
+                                <li><a href="#">Merchandise</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="footer-bottom d-flex justify-space-between align-center">
+                    <div class="social-wrapper">
+                        <h3>FOLLOW US</h3>
+                        <div class="social-links">
+                            <a href="#"><img src="./assets/images/twitter.png" alt="twitter"></a>
+                            <a href="#"><img src="./assets/images/facebook.png" alt="facebook"></a>
+                            <a href="#"><img src="./assets/images/gplus.png" alt="gplus"></a>
+                            <a href="#"><img src="./assets/images/tumblr.png" alt="tumblr"></a>
+                            <a href="#"><img src="./assets/images/pinterest.png" alt="pinterest"></a>
+                            <a href="#"><img src="./assets/images/linkedin.png" alt="linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="copy-wrapper">
+                        <span class="theme-grey">
+                            &copy; 2021 <a href="#">Rupay</a>. All Rights Reserved
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
