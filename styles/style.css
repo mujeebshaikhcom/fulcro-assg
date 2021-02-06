@@ -532,7 +532,6 @@ section.rupay-classic {
   padding: 12px 8px;
 }
 section.articles {
-  min-height: 100vh;
   background: linear-gradient(to bottom, #01071D 45%, #fff 45% );
   padding-top: 100px;
   padding-bottom: 100px;
