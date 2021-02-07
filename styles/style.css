@@ -714,6 +714,11 @@ span.footLink {
   float: right;
   margin-right: 2px;
 }
+@-moz-document url-prefix() {
+  section.card-features {
+    height: 501px;
+  }
+}
 /* loadin overlay */
 div#overlay {
   position: fixed;
