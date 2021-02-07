@@ -1,4 +1,25 @@
-
+var app = {
+  init: function() {
+    app.mobileMenu();
+  },
+  mobileMenu : function() {
+    const navLinks = $('.nav-wrapper>ul');
+    const links = $('.nav-wrapper>ul>li');
+  
+    $('.hamburger').on('click', function(){
+        $(navLinks).toggleClass('open');
+        $(this).toggleClass('close');
+        $(links).each(function(){
+            $(this).toggleClass('fade');
+        });
+    });
+    $(links).on('click', function(){
+        if($(window).width() < 768) {
+            $('.hamburger').click();
+        }
+    });
+  }
+}
 
 // small carousel
 function defer(method) {
@@ -96,3 +117,13 @@ function defer(method) {
         $('header').removeClass('headeropaq');
     }
     });
+
+
+$(document).ready(function(){
+  app.init();
+});
+$(window).on('load',function(){
+  // PAGE IS FULLY LOADED  
+  // FADE OUT YOUR OVERLAYING DIV
+  $('#overlay').fadeOut();
+});
